@@ -16,6 +16,7 @@ namespace TechShop.Model.Models
         [MaxLength(250)]
         public string Name { set; get; }
 
+        [Column(TypeName = "varchar")]
         [Required]
         [MaxLength(250)]
         public string Alias { set; get; }

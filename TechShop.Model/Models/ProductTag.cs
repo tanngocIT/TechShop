@@ -8,6 +8,7 @@ namespace TechShop.Model.Models
     {
         [Key]
         [MaxLength(50)]
+        [Column(TypeName = "varchar")]
         public string TagID { set; get; }
 
         [ForeignKey("TagID")]
