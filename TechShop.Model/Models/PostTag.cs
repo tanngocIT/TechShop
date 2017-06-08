@@ -8,13 +8,14 @@ namespace TechShop.Model.Models
     {
         [Key]
         [MaxLength(50)]
-        [Column(TypeName = "varchar")]
+        [Column(TypeName = "varchar",Order =2)]
         public string TagID { set; get; }
 
         [ForeignKey("TagID")]
         public virtual Tag Tags { set; get; }
 
         [Key]
+        [Column(Order = 1)]
         public int PostID { set; get; }
 
         [ForeignKey("PostID")]

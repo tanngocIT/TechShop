@@ -34,7 +34,8 @@ namespace TechShop.Model.Models
         [MaxLength(500)]
         public string Image { set; get; }
 
-        public XElement MoreImage { set; get; }
+        [Column(TypeName ="xml")]
+        public string MoreImage { set; get; }
 
         public int Quantity { set; get; }
 
