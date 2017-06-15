@@ -3,7 +3,7 @@ using TechShop.Model.Models;
 
 namespace TechShop.Data.Repositories
 {
-    public interface ISystemConfigRepository
+    public interface ISystemConfigRepository: IRepository<SystemConfig>
     {
     }
 

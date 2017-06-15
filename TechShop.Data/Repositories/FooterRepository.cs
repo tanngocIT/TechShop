@@ -3,7 +3,7 @@ using TechShop.Model.Models;
 
 namespace TechShop.Data.Repositories
 {
-    public interface IFooterRepository
+    public interface IFooterRepository: IRepository<Footer>
     {
     }
 

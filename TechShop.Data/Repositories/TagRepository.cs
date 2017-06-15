@@ -3,7 +3,7 @@ using TechShop.Model.Models;
 
 namespace TechShop.Data.Repositories
 {
-    public interface ITagRepository
+    public interface ITagRepository: IRepository<Tag>
     {
     }
 
